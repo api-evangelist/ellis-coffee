@@ -1,0 +1,92 @@
+aid: ellis-coffee
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/ellis-coffee/refs/heads/main/apis.yml
+name: Ellis Coffee Company
+tags:
+  - Coffee
+  - Beverage
+  - Foodservice
+  - Wholesale
+  - Hospitality
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+common:
+  - type: Website
+    url: https://www.elliscoffee.com
+  - type: Blog
+    url: https://www.elliscoffee.com/blog
+  - type: Contact
+    url: https://www.elliscoffee.com/contact
+  - type: OrderPortal
+    url: https://deliver.elliscoffee.com
+  - type: ServicePortal
+    url: https://onupkeep.com
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ellis-coffee-company
+  - type: Twitter
+    url: https://twitter.com/elliscoffee
+  - type: Facebook
+    url: https://www.facebook.com/EllisCoffeeCompany
+  - type: Instagram
+    url: https://www.instagram.com/elliscoffee_1854
+  - type: YouTube
+    url: https://www.youtube.com/user/elliscoffee
+  - type: Features
+    data:
+      - name: Coffee Roasting
+        description: Whole bean, ground, flavored, espresso, cold brew, filter pack, and E-Cup coffee programs roasted in Philadelphia
+      - name: Tea And Beverages
+        description: Sweet Brew Tea and Lemonades, hot chocolate, and Smartfruit Refreshers for foodservice and office accounts
+      - name: Equipment And Service
+        description: Brewing equipment placement and service through the OnUpkeep service portal
+      - name: Sustainability Programs
+        description: Sustainable coffee sourcing options across the wholesale catalog
+      - name: POS And Signage
+        description: Point-of-sale materials and branded signage supplied to wholesale customers
+  - type: UseCases
+    data:
+      - name: Restaurant Coffee Programs
+        description: Wholesale coffee, tea, and equipment supply for restaurant and quick-service operators
+      - name: Hotel And Resort Beverage Service
+        description: Branded coffee programs for hotels, resorts, and hospitality groups
+      - name: Office Coffee Service
+        description: Office Coffee Service (OCS) programs with brewing equipment and recurring delivery
+      - name: Convenience Store Coffee
+        description: C-store coffee programs including filter pack and flavored coffee
+      - name: University And Vending
+        description: Coffee supply for university dining services and vending operators
+  - type: Customers
+    data:
+      - name: Restaurants
+        description: Independent and chain restaurant operators
+      - name: Hotels And Resorts
+        description: Hospitality customers across the U.S.
+      - name: Office Coffee Service (OCS)
+        description: Workplace coffee programs
+      - name: C-Stores
+        description: Convenience store chains
+      - name: Distributors
+        description: Foodservice and beverage distributors
+      - name: Universities
+        description: Higher education dining and retail
+      - name: Vending Operators
+        description: Vending and unattended retail
+description: >-
+  Ellis Coffee Company is a Philadelphia-based wholesale coffee roaster
+  founded in 1854 and now in its fourth generation of family ownership.
+  Ellis supplies coffee, tea, hot chocolate, brewing equipment, and POS
+  materials to restaurants, hotels, resorts, office coffee service (OCS)
+  programs, convenience stores, universities, distributors, and vending
+  operators. Customers place and manage orders through deliver.elliscoffee.com
+  and request brewing equipment service through the OnUpkeep portal. Ellis
+  Coffee Company does not publish a public developer API, OpenAPI definition,
+  webhook program, SDK, or status page.
+created: '2026-05-23'
+modified: '2026-05-23'
+position: Consuming
+specificationVersion: '0.19'
+apis: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
