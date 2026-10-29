@@ -1,4 +1,4 @@
-# Ellis Coffee Company (ellis-coffee)
+# Ellis Coffee Company
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,70 +66,78 @@
 
 Ellis Coffee Company is a Philadelphia-based wholesale coffee roaster founded in 1854 and now in its fourth generation of family ownership. Ellis supplies coffee, tea, hot chocolate, brewing equipment, and POS materials to restaurants, hotels, resorts, office coffee service (OCS) programs, convenience stores, universities, distributors, and vending operators. Customers place and manage orders through deliver.elliscoffee.com and request brewing equipment service through the OnUpkeep portal. Ellis Coffee Company does not publish a public developer API, OpenAPI definition, webhook program, SDK, or status page.
 
-**URL:** [https://www.elliscoffee.com](https://www.elliscoffee.com)
+**Areas:** Coffee · Beverages · Food Service · Wholesale · Hospitality
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=ellis-coffee-api-evangelist&utm_content=repo)
+## Ellis Coffee Company on APIs.io
 
-## Tags
+Everything profiled for Ellis Coffee Company is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ellis-coffee/](https://apis.io/providers/ellis-coffee/)** — or go straight to one of the APIs or properties below.
 
-- Coffee, Beverage, Foodservice, Wholesale, Hospitality
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-05-23
-- **Modified:** 2026-05-23
+#### Security (1)
 
-## APIs
+Authentication, trust centre, and vulnerability disclosure.
 
-No public APIs are documented. Ellis Coffee Company is a wholesale roaster that operates a customer ordering portal (deliver.elliscoffee.com) and a third-party equipment service portal (OnUpkeep), but does not publish a developer program, OpenAPI definition, webhooks, SDKs, or a public status page. Account-level integration with order processing is presumably available to wholesale customers via their account manager.
+- [Ellis Coffee Domain Security](https://apis.io/security/ellis-coffee/ellis-coffee-domain-security/)
 
-## Common Properties
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.elliscoffee.com)
 - [Blog](https://www.elliscoffee.com/blog)
-- [Contact](https://www.elliscoffee.com/contact)
-- [OrderPortal](https://deliver.elliscoffee.com)
-- [ServicePortal](https://onupkeep.com)
-- [LinkedIn](https://www.linkedin.com/company/ellis-coffee-company)
-- [Twitter](https://twitter.com/elliscoffee)
-- [Facebook](https://www.facebook.com/EllisCoffeeCompany)
-- [Instagram](https://www.instagram.com/elliscoffee_1854)
-- [YouTube](https://www.youtube.com/user/elliscoffee)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Coffee Roasting | Whole bean, ground, flavored, espresso, cold brew, filter pack, and E-Cup coffee programs roasted in Philadelphia |
-| Tea And Beverages | Sweet Brew Tea and Lemonades, hot chocolate, and Smartfruit Refreshers for foodservice and office accounts |
-| Equipment And Service | Brewing equipment placement and service through the OnUpkeep service portal |
-| Sustainability Programs | Sustainable coffee sourcing options across the wholesale catalog |
-| POS And Signage | Point-of-sale materials and branded signage supplied to wholesale customers |
+**Kin Score 3.9** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
 
-| Name | Description |
-|------|-------------|
-| Restaurant Coffee Programs | Wholesale coffee, tea, and equipment supply for restaurant and quick-service operators |
-| Hotel And Resort Beverage Service | Branded coffee programs for hotels, resorts, and hospitality groups |
-| Office Coffee Service | Office Coffee Service (OCS) programs with brewing equipment and recurring delivery |
-| Convenience Store Coffee | C-store coffee programs including filter pack and flavored coffee |
-| University And Vending | Coffee supply for university dining services and vending operators |
+**Agent readiness 0.0** — human-only
 
-## Customers
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Restaurants | Independent and chain restaurant operators |
-| Hotels And Resorts | Hospitality customers across the U.S. |
-| Office Coffee Service (OCS) | Workplace coffee programs |
-| C-Stores | Convenience store chains |
-| Distributors | Foodservice and beverage distributors |
-| Universities | Higher education dining and retail |
-| Vending Operators | Vending and unattended retail |
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ellis-coffee/](https://apis.io/providers/ellis-coffee/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** kin@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ellis Coffee Company: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ellis-coffee/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
